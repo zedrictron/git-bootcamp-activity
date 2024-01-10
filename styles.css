@@ -1,0 +1,27 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: url(./images/bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.image-containers {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  width: 50%;
+  border: 4px plum solid;
+  border-radius: 32px;
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+
+.image {
+  height: 240px;
+  width: 240px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
